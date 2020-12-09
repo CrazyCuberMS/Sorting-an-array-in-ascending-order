@@ -1,11 +1,10 @@
 # Sorting-an-array-in-ascending-order
 
 #include <bits/stdc++.h>
- 
-using namespace std;
- 
-int main()
+ using namespace std;
+ int main()
 {
+
     int x;
     cin>>x;
     int arr[x];
@@ -13,14 +12,17 @@ int main()
     sort(arr,arr+x);
     for(int i = 0;i<x;i++)cout<<arr[i]<<" ";
     return 0;
+    
 }
 
+
+
 #include <iostream>
-
 using namespace std;
-
 int main()
 {
+
+
     int n,i,j,m;
     cin>>n;
     int a[n];
