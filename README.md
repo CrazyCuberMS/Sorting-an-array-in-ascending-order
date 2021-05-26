@@ -1,28 +1,24 @@
-# Sorting-an-array-in-ascending-order
-
+# Sorting-an-array-in-ascending-order #
+```C++
 #include <bits/stdc++.h>
  using namespace std;
  int main()
 {
-
     int x;
     cin>>x;
     int arr[x];
     for(int i = 0;i<x;i++)cin>>arr[i];
     sort(arr,arr+x);
     for(int i = 0;i<x;i++)cout<<arr[i]<<" ";
-    return 0;
-    
+    return 0;   
 }
+```
 
-
-
+```C++
 #include <iostream>
 using namespace std;
 int main()
 {
-
-
     int n,i,j,m;
     cin>>n;
     int a[n];
@@ -30,9 +26,6 @@ int main()
     {
         cin>>a[i];
     }
-
-
-
     for(i=0;i<n;i++)
     {
         for(j=i+1;j<n;j++)
@@ -42,7 +35,6 @@ int main()
                 m=a[j] ; a[j] = a[i]; a[i]=m;
             }
         }
-
     }
 
     for(i=0;i<n;i++)
@@ -51,3 +43,4 @@ int main()
     }
     return 0;
 }
+```
